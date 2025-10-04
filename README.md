@@ -9,26 +9,6 @@ The **DeWeb-hosted frontend**, built with **Next.js** and **Tailwind CSS**, offe
 
 ---
 
-## 📑 Table of Contents
-- [What It Does](#what-it-does)
-- [Problem Solved](#problem-solved)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [How to Set Up](#how-to-set-up)
-  - [Prerequisites](#prerequisites)
-  - [Frontend Setup](#frontend-setup)
-  - [Smart Contract Setup](#smart-contract-setup)
-- [Deployment](#deployment)
-  - [Deploy Smart Contracts](#deploy-smart-contracts)
-  - [Deploy Frontend to DeWeb](#deploy-frontend-to-deweb)
-- [Challenges Faced](#challenges-faced)
-- [What We Learned](#what-we-learned)
-- [What's Next](#whats-next)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## 🚀 What It Does
 The On-Chain DCA Yield Optimizer automates crypto investing by executing DCA swaps on a Massa-based DEX at scheduled intervals (daily/weekly) using **Autonomous Smart Contracts (ASC)**.  
 It stakes vaulted assets to generate yield, auto-compounding rewards back into the strategy.  
@@ -184,5 +164,3 @@ deweb deploy
 * Deploy to **Massa mainnet**.
 * Conduct **security audits**.
 * Build **mobile apps** with Grok voice mode.
-
----
