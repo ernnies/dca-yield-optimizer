@@ -1,0 +1,21 @@
+{
+  "name": "dca-yield-optimizer",
+  "version": "1.0.0",
+  "description": "dca-yield-optimizer",
+  "main": "build/release.wasm",
+  "scripts": {
+    "build": "asc assembly/main.ts --target release --exportRuntime --outFile build/release.wasm",
+    "test": "asp --verbose",
+    "deploy": "bun run src/deploy.ts"
+  },
+  "dependencies": {
+    "@massalabs/as-asc": "^2.2.2"
+  },
+  "devDependencies": {
+    "@massalabs/as-asc-testing": "^2.2.2",
+    "@massalabs/massa-sc-deployer": "^2.0.6"
+  },
+  "author": "ernnies",
+  "license": "MIT",
+  "repository": "https://github.com/ernnies/dca-yield-optimizer"
+}
